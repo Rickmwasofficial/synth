@@ -44,7 +44,7 @@ const App: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch(`http://34.35.95.136:8080/invoke?content=${encodeURIComponent(currentInput)}`, {
+      const response = await fetch(`https://synthapi.rickmwasofficial.me/invoke?content=${encodeURIComponent(currentInput)}`, {
         method: 'POST',
         headers: {
           'Accept': 'text/event-stream',
