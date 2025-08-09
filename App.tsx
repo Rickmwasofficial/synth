@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { ChatMessage as ChatMessageType, BotMessageData, Step } from './types';
 import ChatInput from './components/ChatInput';
+import { Analytics } from "@vercel/analytics/next"
 import { ChatMessage } from './components/ChatMessage';
 import { BotIcon, SparklesIcon } from './components/Icons';
 
@@ -222,6 +223,7 @@ const App: React.FC = () => {
           />
         </div>
       </div>
+      <Analytics />
     </div>
   );
 };
