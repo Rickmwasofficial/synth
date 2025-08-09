@@ -1,0 +1,5 @@
+{
+  "name": "Agent Stream Chat",
+  "description": "A sleek chatbot interface that visualizes agent tool usage and streams responses in real-time by connecting to a local FastAPI backend.",
+  "requestFramePermissions": []
+}
